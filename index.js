@@ -22,7 +22,7 @@ server.listen(process.env.PORT || 3000);
 
 // サーバー起動確認
 server.get('/', (req, res) => {
-    res.send('Hello World!!!');
+    res.send('Hello World from git hub');
 });
 
 // Botからメッセージに応答
